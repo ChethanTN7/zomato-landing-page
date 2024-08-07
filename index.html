@@ -51,7 +51,8 @@
                 <i class="fa-solid fa-location-dot" style="color: rgb(239, 79, 95);"></i>
                 <input type="text" class="input_container_location" placeholder="Hampi-Hospet" />
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" class="input_container_search" placeholder="Search for a Restaurant, cuisine or a dish" />
+                <input type="text" class="input_container_search"
+                    placeholder="Search for a Restaurant, cuisine or a dish" />
             </div>
         </div>
     </section>
@@ -92,7 +93,7 @@
     </section>
 
     <!-- This is for collection section -->
-     <section class="container collections">
+    <section class="container collections">
         <h1>Collection</h1>
         <div class="sub_heading_container">
             <span>Explore curated lists of top restaurants, cafes, pubs in Hampi-Hospet based on trends</span>
@@ -132,10 +133,10 @@
             </div>
         </div>
 
-     </section>
+    </section>
 
-     <!-- This is for get the app -->
-      <section class="container get_the_app">
+    <!-- This is for get the app -->
+    <section class="container get_the_app">
         <div class="semicontainer">
             <div class="left">
                 <img src="./images/mobileBanner.png" alt="Mobile Banner">
@@ -166,20 +167,107 @@
                 </div>
             </div>
         </div>
-      </section>
+    </section>
 
-      <!-- This is for explore section -->
-      <section class="explore_section">
+    <!-- This is for explore section -->
+    <section class="explore_section">
         <h3>Explore options near me</h3>
         <div class="explore_button_container">
-            <button>Popular cuisines near me<i class="fa-solid fa-angle-down"></i></button>
-            <button>Popular restaurant types near me<i class="fa-solid fa-angle-down"></i></button>
-            <button>Cities We Deliver To<i class="fa-solid fa-angle-down"></i></button>
-        </div>
-      </section>
+            <div class="explore_container">
+                <input type="checkbox" id="checkbox1">
+                <label for="checkbox1">
+                    <h4>Popular cuisines near me</h4><i class="fa-solid fa-angle-down"></i>
+                </label>
+                <div class="explore_content_container">
+                    <ul>
+                        <li>Beverages food near me</li>
+                        <li>Biryani food near me</li>
+                        <li>Burger food near me</li>
+                        <li>Chinese food near me</li>
+                        <li>Desserts food near me</li>
+                        <li>Ice Cream food near me</li>
+                        <li>Italian food near me</li>
+                        <li>Mithai food near me</li>
+                        <li>Momos food near me</li>
+                        <li>Mughlai food near me</li>
+                        <li>North Indian food near me</li>
+                        <li>Pasta food near me</li>
+                        <li>Pizza food near me</li>
+                        <li>Rolls food near me</li>
+                        <li>Sandwich food near me</li>
+                        <li>Shake food near me</li>
+                        <li>South Indian food near me</li>
+                        <li>Street food near me</li>
+                        <li>Tea food near me</li>
+                    </ul>
+                </div>
+            </div>
 
-      <!-- This is for footer section -->
-      <footer class="container footer">
+            <div class="explore_container">
+                <input type="checkbox" id="checkbox2">
+                <label for="checkbox2">
+                    <h4>Popular restaurant types near me</h4><i class="fa-solid fa-angle-down"></i>
+                </label>
+                <div class="explore_content_container">
+                    <ul>
+                        <li>Bakeries near me</li>
+                        <li>Bars near me</li>
+                        <li>Beverage Shops near me</li>
+                        <li>Cafés near me</li>
+                        <li>Dining near me</li>
+                        <li>Dessert Parlors near me</li>
+                        <li>Fine Dining near me</li>
+                        <li>Food Trucks near me</li>
+                        <li>Kiosks near me</li>
+                        <li>Shop near me</li>
+                        <li>Quick Bites near me</li>
+                        <li>Sweet Shops near me</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="explore_container">
+                <input type="checkbox" id="checkbox3">
+                <label for="checkbox3">
+                    <h4>Popular cuisines near me</h4><i class="fa-solid fa-angle-down"></i>
+                </label>
+                <div class="explore_content_container cities">
+                    <ul>
+                       <li>Delhi NCR</li>
+                       <li>Kolkata</li>
+                       <li>Mumbai</li>
+                       <li>Bengaluru</li>
+                       <li>Pune</li>
+                       <li>Hyderabad</li>
+                       <li>Chennai</li>
+                       <li>Lucknow</li>
+                       <li>Kochi</li>
+                       <li>Jaipur</li>
+                       <li>Ahmedabad</li>
+                       <li>Chandigarh</li>
+                       <li>Goa</li>
+                       <li>Indore</li>
+                       <li>Gangtok</li>
+                       <li>Nashik</li>
+                       <li>Ooty</li>
+                       <li>Shimla</li>
+                       <li>Ludhiana</li>
+                       <li>Guwahati</li>
+                       <li>Amritsar</li>
+                       <li>Kanpur</li>
+                       <li>Allahabad</li>
+                       <li style="text-decoration: underline; color: black;">All delivery cities</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <button>Popular cuisines near me<i class="fa-solid fa-angle-down"></i></button>
+            <button>Popular restaurant types near me<i class="fa-solid fa-angle-down"></i></button>
+            <button>Cities We Deliver To<i class="fa-solid fa-angle-down"></i></button> -->
+        </div>
+    </section>
+
+    <!-- This is for footer section -->
+    <footer class="container footer">
         <div class="footer_section1">
             <img src="./images/logo.png" alt="zomato logo">
             <div class="section1_button_container">
@@ -245,9 +333,11 @@
             </div>
         </div>
         <div class="disclaimer">
-            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content
+            Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights
+            reserved.
         </div>
-      </footer>
+    </footer>
 
 </body>
 

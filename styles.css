@@ -454,6 +454,10 @@ input[type="checkbox"]:checked ~.explore_content_container{
     margin-top: 0.5rem;
 }
 
+input[type="checkbox"]:checked ~label i{
+    transform: rotate(180deg);
+}
+
 .cities ul{
     list-style: none;
     display: grid;
